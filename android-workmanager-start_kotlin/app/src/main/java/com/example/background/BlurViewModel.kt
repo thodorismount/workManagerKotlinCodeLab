@@ -16,6 +16,7 @@
 
 package com.example.background
 
+import android.annotation.SuppressLint
 import android.app.Application
 import android.net.Uri
 import androidx.lifecycle.AndroidViewModel
@@ -24,6 +25,8 @@ import androidx.work.OneTimeWorkRequest
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
 import com.example.background.workers.BlurWorker
+import com.example.background.workers.CleanupWorker
+import com.example.background.workers.SaveImageToFileWorker
 
 
 class BlurViewModel(application: Application) : AndroidViewModel(application) {
@@ -37,13 +40,29 @@ class BlurViewModel(application: Application) : AndroidViewModel(application) {
      * Create the WorkRequest to apply the blur and save the resulting image
      * @param blurLevel The amount to blur the image
      */
+    @SuppressLint("EnqueueWork")
     internal fun applyBlur(blurLevel: Int) {
 
-        val blurRequest = OneTimeWorkRequestBuilder<BlurWorker>()
-                .setInputData(createInputDataForUri())
-                .build()
+        var continuation = workManager
+                .beginWith(OneTimeWorkRequest
+                        .from(CleanupWorker::class.java))
 
-        workManager.enqueue(blurRequest)
+        for (i in 0 until blurLevel) {
+            val blurBuilder = OneTimeWorkRequestBuilder<BlurWorker>()
+
+            if (i == 0) {
+                blurBuilder.setInputData(createInputDataForUri())
+            }
+
+
+            continuation = continuation.then(blurBuilder.build())
+        }
+
+        val save = OneTimeWorkRequest.Builder(SaveImageToFileWorker::class.java).build()
+
+        continuation = continuation.then(save)
+
+        continuation.enqueue()
     }
 
     private fun uriOrNull(uriString: String?): Uri? {
@@ -72,7 +91,7 @@ class BlurViewModel(application: Application) : AndroidViewModel(application) {
 
     private fun createInputDataForUri(): Data {
         val builder = Data.Builder()
-        imageUri?.let{
+        imageUri?.let {
             builder.putString(KEY_IMAGE_URI, imageUri.toString())
         }
         return builder.build()
