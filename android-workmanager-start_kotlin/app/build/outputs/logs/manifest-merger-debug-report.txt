@@ -1,0 +1,456 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\bec62f1cacd1375c037b80e5b1ad29df\jetified-viewbinding-4.1.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\f06cef45415ed268e4308322986b7f5e\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\f04f77f5bf22057a29bdffafb3270f20\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6c947c1ee663776da9f2fac602ee0dca\lifecycle-extensions-2.2.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\d7cf0c48f8d68e22ee990707fe64d7cf\work-runtime-ktx-2.5.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6b1dd5bab1d318f7726b416518460ffd\jetified-glide-4.12.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\217fe83df7657c20012b79eb128ca2c5\jetified-timber-4.7.1\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2885d5772086870c94195c63fa276615\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0fd34e6c7bb6b40f5dc7ab5ef05bff03\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2a55688af45cc26894515930f7598b4c\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\20c569d170c1087af52ed563b74986ca\fragment-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:17:1-143:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0834b5ba5a2069827b66ec2381cce9a4\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6fbeb392f5263fd9571c6041381d2d25\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0c98e9828a7e26327831536335f7b51c\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\9d45b0db811be7a6f30e22e717abe7f1\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e041dee3fc7fec0e0ebca50f62b8e1d5\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\acdfb9851710432af40207a0c042e0b5\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\befc2dc96900548f9aad9ed621d97901\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\a2ab54d0fd3cae95762df2d535bcb68c\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e2134a40a07cc3350778b4c8abd1db74\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\c26229a7c6ef94e3e43a6434d21a9eaa\lifecycle-livedata-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d489c7a1d254566590f965f11375fa7\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e89731130edffa1dffd564c019907dd1\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\658ad5e1bd90683ba67711911d9af5c0\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\258fa27d6ce4fb06392c49a9ce083fed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\cde97eab44096f963e476f69e8f65419\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6d22c9221a3ef634888b2c90fdeff5a9\jetified-gifdecoder-4.12.0\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\07a4cf4187e25d7196cda69c0551ea9f\exifinterface-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2c6ed7427685c82245fefb4f484ad956\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\844eb68dea5e0093fc45242a20c55579\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\fd9241e234cbb7ceaae45db1a316aa8e\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3358575c28644f76e4b2d0f766cdc30a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+	package
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:11-43
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:18:1-45:12
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:19:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:21:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:22:5-80
+	android:name
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:22:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:23:22-78
+application
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:25:5-43:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\f06cef45415ed268e4308322986b7f5e\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\f06cef45415ed268e4308322986b7f5e\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6c947c1ee663776da9f2fac602ee0dca\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6c947c1ee663776da9f2fac602ee0dca\lifecycle-extensions-2.2.0\AndroidManifest.xml:24:5-25:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6b1dd5bab1d318f7726b416518460ffd\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6b1dd5bab1d318f7726b416518460ffd\jetified-glide-4.12.0\AndroidManifest.xml:10:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\217fe83df7657c20012b79eb128ca2c5\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\217fe83df7657c20012b79eb128ca2c5\jetified-timber-4.7.1\AndroidManifest.xml:7:5-20
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:30:5-141:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\befc2dc96900548f9aad9ed621d97901\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\befc2dc96900548f9aad9ed621d97901\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6d22c9221a3ef634888b2c90fdeff5a9\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6d22c9221a3ef634888b2c90fdeff5a9\jetified-gifdecoder-4.12.0\AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2c6ed7427685c82245fefb4f484ad956\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2c6ed7427685c82245fefb4f484ad956\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\befc2dc96900548f9aad9ed621d97901\core-1.3.1\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:31:9-35
+	android:label
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:29:9-41
+	android:roundIcon
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:30:9-54
+	android:icon
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:28:9-43
+	android:allowBackup
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:27:9-35
+	android:theme
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:32:9-40
+	android:name
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:26:9-40
+activity#com.example.background.SelectImageActivity
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:34:9-39:20
+	android:name
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:34:19-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.example.background.BlurActivity
+ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:41:9-50
+	android:name
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml:41:19-47
+uses-sdk
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\bec62f1cacd1375c037b80e5b1ad29df\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.2] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\bec62f1cacd1375c037b80e5b1ad29df\jetified-viewbinding-4.1.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\f06cef45415ed268e4308322986b7f5e\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\f06cef45415ed268e4308322986b7f5e\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\f04f77f5bf22057a29bdffafb3270f20\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\f04f77f5bf22057a29bdffafb3270f20\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6c947c1ee663776da9f2fac602ee0dca\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6c947c1ee663776da9f2fac602ee0dca\lifecycle-extensions-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\d7cf0c48f8d68e22ee990707fe64d7cf\work-runtime-ktx-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime-ktx:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\d7cf0c48f8d68e22ee990707fe64d7cf\work-runtime-ktx-2.5.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6b1dd5bab1d318f7726b416518460ffd\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6b1dd5bab1d318f7726b416518460ffd\jetified-glide-4.12.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\217fe83df7657c20012b79eb128ca2c5\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\217fe83df7657c20012b79eb128ca2c5\jetified-timber-4.7.1\AndroidManifest.xml:5:5-43
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2885d5772086870c94195c63fa276615\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2885d5772086870c94195c63fa276615\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0fd34e6c7bb6b40f5dc7ab5ef05bff03\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0fd34e6c7bb6b40f5dc7ab5ef05bff03\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2a55688af45cc26894515930f7598b4c\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2a55688af45cc26894515930f7598b4c\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\20c569d170c1087af52ed563b74986ca\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\20c569d170c1087af52ed563b74986ca\fragment-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0834b5ba5a2069827b66ec2381cce9a4\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0834b5ba5a2069827b66ec2381cce9a4\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6fbeb392f5263fd9571c6041381d2d25\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6fbeb392f5263fd9571c6041381d2d25\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0c98e9828a7e26327831536335f7b51c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0c98e9828a7e26327831536335f7b51c\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\9d45b0db811be7a6f30e22e717abe7f1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\9d45b0db811be7a6f30e22e717abe7f1\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e041dee3fc7fec0e0ebca50f62b8e1d5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e041dee3fc7fec0e0ebca50f62b8e1d5\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\acdfb9851710432af40207a0c042e0b5\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\acdfb9851710432af40207a0c042e0b5\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\befc2dc96900548f9aad9ed621d97901\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\befc2dc96900548f9aad9ed621d97901\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\a2ab54d0fd3cae95762df2d535bcb68c\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\a2ab54d0fd3cae95762df2d535bcb68c\jetified-lifecycle-service-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e2134a40a07cc3350778b4c8abd1db74\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e2134a40a07cc3350778b4c8abd1db74\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\c26229a7c6ef94e3e43a6434d21a9eaa\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\c26229a7c6ef94e3e43a6434d21a9eaa\lifecycle-livedata-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d489c7a1d254566590f965f11375fa7\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d489c7a1d254566590f965f11375fa7\jetified-lifecycle-viewmodel-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e89731130edffa1dffd564c019907dd1\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\e89731130edffa1dffd564c019907dd1\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\658ad5e1bd90683ba67711911d9af5c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\658ad5e1bd90683ba67711911d9af5c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\258fa27d6ce4fb06392c49a9ce083fed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\258fa27d6ce4fb06392c49a9ce083fed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\cde97eab44096f963e476f69e8f65419\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\cde97eab44096f963e476f69e8f65419\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6d22c9221a3ef634888b2c90fdeff5a9\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\6d22c9221a3ef634888b2c90fdeff5a9\jetified-gifdecoder-4.12.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\07a4cf4187e25d7196cda69c0551ea9f\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\07a4cf4187e25d7196cda69c0551ea9f\exifinterface-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2c6ed7427685c82245fefb4f484ad956\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\2c6ed7427685c82245fefb4f484ad956\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\844eb68dea5e0093fc45242a20c55579\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\844eb68dea5e0093fc45242a20c55579\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\fd9241e234cbb7ceaae45db1a316aa8e\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\fd9241e234cbb7ceaae45db1a316aa8e\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3358575c28644f76e4b2d0f766cdc30a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3358575c28644f76e4b2d0f766cdc30a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\theodorosm\AndroidStudioProjects\workManagerKotlinCodeLab\android-workmanager-start_kotlin\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:28:22-74
+provider#androidx.work.impl.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:31:9-37:35
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:33:13-68
+	android:multiprocess
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:36:13-40
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:34:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:32:13-69
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:39:9-44:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:42:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:43:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:44:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:41:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:40:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:45:9-51:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:48:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:49:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:50:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:51:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:47:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:46:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:52:9-57:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:55:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:56:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:57:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:54:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:53:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:59:9-64:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:62:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:63:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:64:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:61:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:60:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:65:9-75:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:68:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:69:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:70:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:67:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:66:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:71:13-74:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:72:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:72:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:73:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:73:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:76:9-86:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:79:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:80:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:81:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:78:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:77:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:82:13-85:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:83:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:83:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:84:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:84:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:87:9-97:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:90:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:91:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:92:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:89:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:88:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:93:13-96:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:94:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:94:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:95:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:95:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:98:9-107:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:101:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:102:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:103:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:99:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:104:13-106:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:105:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:105:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:108:9-119:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:111:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:112:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:113:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:110:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:109:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:114:13-118:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:115:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:115:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:116:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:116:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:117:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:117:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:120:9-129:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:123:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:124:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:125:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:122:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:121:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:126:13-128:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:127:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:127:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:130:9-140:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:133:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:134:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:135:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:136:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:132:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:131:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:137:13-139:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:138:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.5.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\0e655494dbbcb3f998b2019352e49a09\work-runtime-2.5.0\AndroidManifest.xml:138:25-85
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\3d2e5f788cb6e44617cac852fa7422b9\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\theodorosm\.gradle\caches\transforms-2\files-2.1\76fcceb9ccf76ddc6f35d420ef3de687\room-runtime-2.2.5\AndroidManifest.xml:26:13-74

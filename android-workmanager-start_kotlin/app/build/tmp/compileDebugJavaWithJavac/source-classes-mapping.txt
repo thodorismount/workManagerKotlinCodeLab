@@ -1,0 +1,6 @@
+com/example/background/BuildConfig.java
+ com.example.background.BuildConfig
+com/example/background/databinding/ActivitySelectBinding.java
+ com.example.background.databinding.ActivitySelectBinding
+com/example/background/databinding/ActivityBlurBinding.java
+ com.example.background.databinding.ActivityBlurBinding

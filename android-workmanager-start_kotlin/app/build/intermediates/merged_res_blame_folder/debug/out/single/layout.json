@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\theodorosm\\AndroidStudioProjects\\workManagerKotlinCodeLab\\android-workmanager-start_kotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_blur.xml",
+        "source": "C:\\Users\\theodorosm\\AndroidStudioProjects\\workManagerKotlinCodeLab\\android-workmanager-start_kotlin\\app\\src\\main\\res\\layout\\activity_blur.xml"
+    },
+    {
+        "merged": "C:\\Users\\theodorosm\\AndroidStudioProjects\\workManagerKotlinCodeLab\\android-workmanager-start_kotlin\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_select.xml",
+        "source": "C:\\Users\\theodorosm\\AndroidStudioProjects\\workManagerKotlinCodeLab\\android-workmanager-start_kotlin\\app\\src\\main\\res\\layout\\activity_select.xml"
+    }
+]
